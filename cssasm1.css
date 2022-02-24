@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #cdcdcd;
+}
+
+#body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 150px;
+    background-color: blue;
+}
+
+
+/* HẾT HEADER*/
+
+#menu {
+    height: 50px;
+    background-color: blue;
+}
+
+
+/*hết header*/
+
+#menu {
+    height: 50px;
+    background-color: pink;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    display: block;
+    line-height: 50px;
+}
+
+#menu ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#slide {
+    height: 35px;
+    font-size: 20px;
+}
+
+#slide p {
+    line-height: 35px;
+    font-size: 20px;
+    color: red;
+}
+
+#content {
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+#left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: beige;
+}
+
+#right {
+    width: 20%;
+    height: 100%;
+    float: right;
+    background-color: beige;
+}
+
+.Tieude {
+    height: 30px;
+    background-color: #26a7ce;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    height: 30px;
+    background-color: #26a7ce;
+}
+
+.title h2 {
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+#Noidung {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+}
+
+#noidung {
+    width: 500px;
+    height:
+}
+
+.noidung1 {
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 110%;
+    margin: 10px;
+}
+
+.noidung1 ul li a {
+    color: black;
+}
+
+.tieude h2 {
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    background-color: pink;
+}
+
+#left ul li {
+    list-style: none;
+    line-height: 60px;
+    text-align: center;
+}
+
+#left ul li a {
+    text-decoration: none;
+}
+
+#left ul li :hover {
+    background-color: chocolate;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+.form {
+    padding: 30px 10px;
+}
+
+#footer {
+    height: 200px;
+    background-color: pink;
+    width: 100%;
+    display: flex;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    background-color: red;
+}
+
+#lienhe {
+    justify-content: center;
+    float: right;
+    width: 50%;
+    background-color: rosybrown;
+}
+
+.hoidap p {
+    display: block;
+    width: 100%;
+}
+
+.hi {
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 95%;
+    margin: 10px;
+}
+
+.hello {
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 95%;
+    margin: 10px;
+    text-align: center;
+}
+
+
+/* BOTTOM */
+
+#bottom {
+    float: left;
+    width: 60%;
+}
